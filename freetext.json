@@ -1,0 +1,285 @@
+    {
+        "id": 682,
+        "author": 13,
+        "author_name": null,
+        "author_name_for_admin": "Dina Bauer",
+        "status": "suggested",
+        "max_points": 3,
+        "exam_time": 120,
+        "version_nr": 8,
+        "card_data_type": "FreeText",
+        "basic_card_type": "QuizCard",
+        "question": {
+            "id": 1455,
+            "text": "Erläutern Sie, wie es zur Einstellung des chemischen Gleichgewichtes kommt.",
+            "upload_id": null,
+            "randomstring": ""
+        },
+        "card_data": {
+            "id": 3,
+            "answer": {
+                "id": 1454,
+                "text": "Gemäß dem Massenwirkungsgesetz und in Abhängigkeit von der Temperatur sowie der Art der Reaktion laufen die Hin- und Rückreaktion von Substrat(en) und Produkt(en), je nach Konzentration, unterschiedlich schnell ab. Dies ist solange der Fall, bis die Geschwindigkeiten von Hin- und Rückreaktion, im chemischen Gleichgewicht, identisch sind und keine Konzentrationsänderung mehr stattfindet.",
+                "upload_id": null,
+                "randomstring": null
+            },
+            "scored_answers": [
+                {
+                    "id": 5,
+                    "text": "Im chemischen Gleichgewicht ist die Geschwindigkeit von Hin- und Rückreaktion gleich. Chemische Reaktionen laufen immer in beide Richtungen ab. Am Anfang gibt es nur Edukte. Mit zunehmender Zeit wird die Konzentration der Edukte größer und die der Edukte kleiner. Gleichzeitig zerfallen aber auch Produkte wieder in ihre Edukte. Sobald diese Reaktion in der gleichen Geschwindigkeit abläuft ist die Reaktion im chemischen Gleichgewicht, das heißt die Konzentrationen ändern sich nicht mehr, auch wenn immer noch Produkte gebildet werden und Produkte in ihre Edukte zerfallen.",
+                    "score": 3
+                },
+                {
+                    "id": 6,
+                    "text": "Durch Reaktion zwischen zwei Edukten entstehten Produkte, bis wir zu einem Punkt kommen, wo die Edukte nicht mehr reagieren. Durch verschiedenen gründe, die die Reaktion beeinflussen, zum Beispiel Temperatur, Konzentration der Edukte und durch Druck auf die gesamte Reaktion.",
+                    "score": 1
+                },
+                {
+                    "id": 7,
+                    "text": "Chemische Stoffe können miteinander reagieren. Aus zwei Substraten entstehen dabei ein oder mehrere Produkte. Gemäß des Massenwirkungsgesetzes bestimmt dabei die Konzentration des Substrates die Reaktionsgeschwindigkeit. Bei hoher Substratkonzentration ist die Wahrscheinlichkeit, dass Teilchen aufeinander stoßen und miteinander reagieren hoch, die REaktionsgeschwindigkeit also auch da viele Reaktionen stattfinden. Im laufenden Prozess nimmt die Reaktionsgeschwindigkeit jedoch ab, da Substrat umgesetzt wird und die Konzentration damit sinkt. Mit der Abnahme der Substratkonzentration steigt jedoch die Konzentration des Produkts. Die chemischen Reaktionen sin dreversibel, das heißt, die Produkte können wieder zurück zu den Substraten reagieren. Dies ist die Rückreaktion. Die Geschwindigkeit der Rückreaktion steigt also mit der Zeit, da die Produktkonzentration zunimmt, während die Geschwindigkeit der Hinreaktion sinkt, da die Substratkonzentration abnimmt. Wenn die Geschwindigkeiten von Hin- und Rückreaktion gleich sind ist das chemische Gleichgewicht erreicht.",
+                    "score": 3
+                },
+                {
+                    "id": 8,
+                    "text": "Chemische Stoffe können miteinander reagieren. Aus zwei Substraten entstehen dabei ein oder mehrere Produkte. Gemäß des Massenwirkungsgesetzes bestimmt dabei die Konzentration des Substrates die Reaktionsgeschwindigkeit. Bei hoher Substratkonzentration ist die Wahrscheinlichkeit, dass Teilchen aufeinander stoßen und miteinander reagieren hoch, die REaktionsgeschwindigkeit also auch da viele Reaktionen stattfinden. Im laufenden Prozess nimmt die Reaktionsgeschwindigkeit jedoch ab, da Substrat umgesetzt wird und die Konzentration damit sinkt. Mit der Abnahme der Substratkonzentration steigt jedoch die Konzentration des Produkts. Die chemischen Reaktionen sin dreversibel, das heißt, die Produkte können wieder zurück zu den Substraten reagieren. Dies ist die Rückreaktion. Die Geschwindigkeit der Rückreaktion steigt also mit der Zeit, da die Produktkonzentration zunimmt, während die Geschwindigkeit der Hinreaktion sinkt, da die Substratkonzentration abnimmt. Wenn die Geschwindigkeiten von Hin- und Rückreaktion gleich sind ist das chemische Gleichgewicht erreicht.",
+                    "score": 3
+                },
+                {
+                    "id": 9,
+                    "text": "Bei einem chemischen Gleichgewicht läuft eine Hin- und eine Rückreaktion ab. Befinden sich diese im Gleichgewicht, so laufen sie gleich schnell ab. Dabei ist es nicht notwendig, dass gleich viele Edukte wie Produkte vorliegen. Vorgang: Eine Reaktion die in beide Richtungen abläuft. Zuerst: viele Produkte werden gebildet. Höhere Produktkonzentration folgt zu vermehrter Eduktbildung. Wenn die Eduktkonzentration soweit abgenommen hat, dass nicht mehr Produkte als rückläufig Edukte entstehen, hat sich das Gleichgewicht eingestellt.",
+                    "score": 3
+                },
+                {
+                    "id": 10,
+                    "text": "Ein chemisches Gleichgewicht entsteht dadurch, dass Hin- und Rückreaktion in einer chemischen Reaktion gleich schnell ablaufen. Dies ist möglich, wenn geeignete Mengenverhältnisse zwischen Substraten und deren Produkten besteht und diese auch hin und zurück reagieren. Das Gleichgewicht lässt sich mit dem Massenwirkungsgesetz veranschaulichen.",
+                    "score": 3
+                },
+                {
+                    "id": 11,
+                    "text": "Das chemische Gleichgewicht einer chemischen Reaktion ist erreicht, wenn Hin- und Rückreaktion mit der gleichen Geschwindigkeit ablaufen. Das Massenwirkungsgesetz besagt, dass das chemische Gleichgewicht von den Konzentrationen der an der Reaktion beteiligten Substrate abhängt. Liegt ein chemisches Gleichgewicht vor, so bildet sich eine \"Gleichgewichtskonstante\" aus dem Quotienten der Konzentrationen der Produkte und Edukte.",
+                    "score": 2
+                },
+                {
+                    "id": 12,
+                    "text": "Wenn Stoffe (Edukte) miteinander reagieren, tun sie dies mit einer bestimmten Geschwindigkeit. Oft reagieren die entstandenen Stoffe (Produkte) aber auch zurück, werden ebenfalls mit einer bestimmten Reaktionsgeschwindigkeit wieder zu Edukten. Wenn Hin- und Rückreaktion mit gleicher Geschwindigkeit ablaufen, bleiben die Konzentrationen von Edukten und Produkten konstant. Die Reaktion ist im chemischen Gleichgewicht.",
+                    "score": 2
+                },
+                {
+                    "id": 13,
+                    "text": "Jedes Atom oder Molekül bewegt sich durch natürliche Wärmebewegung. Dabei verteilen sich die Teilchen zufällig (Diffusion). Ein chemisches Gleichgewicht stellt sich ein, wenn auf zwei verschiedenen Seiten eine ungefähr gleiche Konzentration der Stoffe eingetreten ist. Von chemischem Gleichgewicht spricht man auch,w enn nach einer gewissen Zeit bei einer Reaktion die Hin- und Rückreaktion in etwa gleich schnell ablaufen.",
+                    "score": 1
+                },
+                {
+                    "id": 14,
+                    "text": "Unter einem chemischen Gleichgewicht versteht man, dass eine chemische Reaktion bei der Hin- und Rückreaktion über die gleiche Reaktionsgeschwindigkeit verfügt. Festgehalten wird dieser Zusammenhang auch im MWG: Das MWG ist dabei abhängig, in welcher Konzentration die jeweiligen Substrate bzw. Produkte vorliegen. Kc nimmt für jede chemische Reaktion einen Konstanten, individuellen Wert ein. Zugrunde liegt dem MWG das Phänomen der Diffusion. Bei der Diffusion handelt es sich um die sogenannte Brownsche Molekularbewegung bzw. Teilchenbewegung entlang eines Konzentrationsgradienten, vom Ort der höheren Konzentration zum Ort der niedrigeren Konzentration bis sich ein chemisches Gleichgewicht bzw. Konzentrationsgleichgewicht eingestellt hat. Eine chemische Reaktion kann durch einen Biokatalysator, d. h. Enzym einem gewissen Tolleranzbereich durch eine Temperaturerhöhung (s. RGT-Regel) beschleunigt werden. Bei diesem Vorgang wird die Aktvierungsenergie verringert.",
+                    "score": 2
+                },
+                {
+                    "id": 15,
+                    "text": "Jede Reaktion wird durch eine bestimmte Gleichgewichtskonstante bestimmt. Diese errechnet sich aus der Konzentration der Produkte durch die der Edukte. Jede Reaktion hat dabe ieine spezifische Gleichgewichtskonstante, die bei einer bestimmten Temperatur und einem bestimmten Druck gilt. Im Gleichgewicht müssen die Produkte und Edukte nich tzwangsläufig in den gleichen Konzentrationen vorliegen. Charakteristisch für den Gleichgewichtszustand ist, dass an diesem Punkt Hin- und Rückreaktion gleich schnell ablaufen. Dabei handelt es sich um ein dynamisches Gleichgewicht, da sowohl die Hin- als auch die Rückreaktion ständig abläuft. Ganz am Anfang, wenn nur Edukte vorliegen, findet nur die Hinreaktion statt, und das mit sehr hoher Geschwindigkiet, da bei der großen Anfangskonzentration zusammenstöße viel wahrscheinlicher sind. Im Laufe der Zeit nimmt diese Geschwindigkeit ab, bis Hin- und Rückreaktion gleich schnell ablaufen.",
+                    "score": 3
+                },
+                {
+                    "id": 16,
+                    "text": "Die Einstellung des chemischen Gleichgewichtes bei einer chemischen Reaktion kommt dadurch zustande, dass sich Hin- und Rückreaktion in ihrem Ergebnis ausgleichen. Läuft beispielsweise bei der Reaktion der Stoffe A und B miteinander zum Produkt C zunächst dieser Vorgang schneller ab, als der umgekehrte Fall, so sinkt zwangsläufig die Konzentration von A und B ab, was deren Reaktion verlangsamt, da die Wahrscheinlichkeit eines Zusammentreffens von A und B sinkt. Gleichzeitig steigt die Konzentration von C, was wiederum die rückreaktion beschleunigt. Hierdurch stellt sich ein Zustand ein, in dem sich letztendlich beide Reaktionen in ihrem Ergebnis ausgleichen, das chemische Gleichgewicht. Beide Reaktionen laufen auch wenn die Reaktion von außen betrachtet scheinbar zum Stillstand gekommen ist weiter ab.",
+                    "score": 3
+                },
+                {
+                    "id": 17,
+                    "text": "Ein chemisches Gleichgewicht liegt vor, wenn Hin- und Rückreaktion gleich schnell ablaufen. Das bedeutet, dass 2 aneinandergrenzende Stoffe aufgrund der Bewegungsenergie der Teilchen ihre Konzentrationen ausgleichen, so dass aufgrund der Diffusion die Stoffe bis zu einem gewissen Grad vermischt werden. Hierbei wirkt auch das Massenwirkungsgesetz. Es besagt, dass je höher die Konzentration der Stoffe ist, desto schneller läuft die Reaktion ab. Und an dem Punkt, an dem das Gleichgewicht vorliegt, gibt es eine Konzentrationskonstante Kc, die bei jeder Reaktion einen eigenen Wert hat.",
+                    "score": 2
+                },
+                {
+                    "id": 18,
+                    "text": "Chemische Gleichgewichtsreaktionen laufen in beide Richtungen ab. Hierbei sind A und B die Edukte und C und D die Produkte. Wenn am Anfang vorallem der Stoff A und B vorliegt, werden diese beiden schnell (da sie in hoher Konzentration vorliegen) miteinander zu den Stoffen C und D reagieren. Diese Stoffe werden nun in immer höherer Konzentration vorliegen und ihr Aufeinandertreffen wird häufiger, so dass C und D wieder zu den Stoffen A und B reagieren. Durch diese Hin- und Rückreaktionen der Stoffe wird sich irgendwann ein chemisches Gleichgewicht einstellen, wenn die Voraussetzung gegeben ist, dass A und B genauso \"gern\" zu C und D reagieren, wie C und D zu A und B. Dies verläuft ähnlich wie bei der Holzapfelschlacht aus dem Modul.",
+                    "score": 3
+                },
+                {
+                    "id": 19,
+                    "text": "Ein chemisches Gleichgewicht besteht, wenn die Hin- und Rückreaktion gleich schnell ablaufen. Massenwirkungsgesetz: K = C*D/A*B. Durch Diffusion, Osmose, Aktivierungsenergie, Konformationsänderung, Lösen & Neubildung von H-Brücken, Ladungsänderungen.",
+                    "score": 2
+                },
+                {
+                    "id": 20,
+                    "text": "Massenwirkungsgesetz. Das chemische Gleichgewicht ist der Zustand an dem die Geschwindigkeit der Hinreaktion gleich der Rückreaktion ist. Es wird durch das Massenwirkungsgesetzt (MWG) beschrieben. Die individuelle Gleichgewichtskonstante K ist der Quotient aus dem Produkt der Konzentrationen des Eduktes und dem Produkt des Produktes. Im Gleichgewicht ändern sich die Konzentrationen des Produkts sowie des Edukts nicht mehr.",
+                    "score": 2
+                },
+                {
+                    "id": 21,
+                    "text": "2 chemische Elemente befinden sich dann im Gleichgewicht, wenn Hin- und Rückreaktion in gleichem Tempo verlaufen. Die chemische Gleichgewichtskonstante ist für die jeweiligen beteiligten Substrate einzeln zu berechnen.",
+                    "score": 2
+                },
+                {
+                    "id": 22,
+                    "text": "Wenn die Hin- und Rückreaktion gleich schnell abläuft und es zu einem Gleichgewicht kommt. Nach dem MWG entstehen kovalente Bindungen bei einer chemisches Reaktion. Nach einiger Zeit kommt es zu einem Gleichgewicht, weil keine kovalente Bindungen mehr eingegangen werden können, wodurch es zu einem Gleichgewicht kommt.",
+                    "score": 2
+                },
+                {
+                    "id": 23,
+                    "text": "Chemisches Gleichgewicht bedeutet, dass bei einer Reaktion die Hin- und Rückreaktionen konstant gleich schnell verlaufen. Beispielsweise würde ein chemisches Gleichgewicht der Reaktion A+B -> C+D heißen, dass sich das Verhältnis der Konzentrationen der Stoffe A,B bzw. D,C nicht mehr ändert, sondern konstant bleibt. (diesen Wert gibt die Gleichgewichtskonstante an).",
+                    "score": 1
+                },
+                {
+                    "id": 24,
+                    "text": "Bei einem chemischen Gleichgewicht ist die Geschwindigkeit von Hin- und Rückreaktionen konstant. Die Edukte A und B reagieren zu den Produkten C und D, diese können auch zurück reagieren. Dabei liegt das Gleichgewicht der Reaktion allerdings mal mehr, mal weniger auf einer der beiden Seiten. Nach einer gewissen Zeit bildet sich ein Gleichgewicht und die Geschwindikgiet der beiden Reaktionen bleibt konstant.",
+                    "score": 3
+                },
+                {
+                    "id": 25,
+                    "text": "Liegen zwei Stoffe A und B in bestimmter Konzentration vor und reagieren diese Edukte zu den Produkten C und D so stellt sich nach gewisser Zeit ein chemisches Gleichgewicht ein. Das chemische Gleichgewicht ist dann erreicht, wenn die Geschwindigkeit der Hinreaktion gleich der Geschwindigkeit der Rückreaktion ist. D. h. im chemischen Gleichgewicht reagieren dann genausoviele Eduktsmoleküle zu den Produkten wie Produkte wieder in Edukte zerfallen. DAs chemische Gleichgewicht ist Temperatur- und Konzentrationsabhängig und wird mit der Gleichgewichtskonstanten K beschrieben.",
+                    "score": 3
+                },
+                {
+                    "id": 26,
+                    "text": "Die Geschwindigkeit der Hin- und Rückreaktion hängt von der Konzentration der beteiligten Stoffe ab. Chemisches Gleichgewicht besteht dann, wenn die Hin- und Rückreaktion gleich schnell ablaufen. Dabei gilt die Summe der Produkte durch die Summer der Edukte ist konstant.",
+                    "score": 3
+                },
+                {
+                    "id": 27,
+                    "text": "Ein chemisches Gleichgewicht ist dadurch charakterisiert, dass die Hin- und Rückreaktion gleich schnell ablaufen. Das MWG besagt, dass die Geschwindigkeit einer chemischen Reaktion von der Konzentration der beteiligten Stoffe abhängt. Je höher die Konzentration der Stoffe, desto schneller die Reaktion. Eine chemische Reaktion ist im Gleichgewicht, wenn die Hin- und Rückreaktion gleich schnell abläuft. Der Quotient aus den Konzentrationen der Produkte und der Quotient aus den Konzentrationen der Stoffe ergtibt somit auch eine Gleichgewichtskonstante.",
+                    "score": 3
+                },
+                {
+                    "id": 28,
+                    "text": "Beim chem. Gleichgewicht läuft die Hin- und Rückreaktion gleich schnell ab. Aus 2 Substraten (Edukte) A und B entsteht bei einer chemischen Reaktion die Produkte C und D. Doch diese sind nicht die Endprodukte, sondern können wieder chemisch miteinander reagieren und es entstehen wieder A und B, die wiederum wieder zu C und D reagieren. Ein chemisches Gleichgewicht ist dann vorhanden, wenn diese beiden Reaktionen gleich schnell ablaufen und die Konzentrationen von A und B sowie von C und D konstant sind. Dafür kann man die Gleichgewichtskonstante Keq ausrechnen, indem man die Konzentration der Produkte durch die Konzentration der Substrate dividiert. Diese Gleichgewichtskonstante ist dann bei Hin- und Rückreaktion gleich.",
+                    "score": 2
+                },
+                {
+                    "id": 29,
+                    "text": "Die Bewegungsenergie der Teilchen veranlasst ihre Verteilung im Raum. Sind viele Teilchen vorhanden, ist die Bewegung sehr schnell, die Reaktionsgeschwindigkeit von zwei Stoffen, die in diesem Raum miteinander reagieren ebenfalls, weil sie oft und stark aufeinander prallen. Dadurch entsteht zunächst eine hohe Konzentration der Produkte. Wird die Konzentration zu hoch reagieren dei Produtke erneut aufgrund der starken Bewegungsenergie und bilden wieder die Edukte. Nach einiger Zeit pendelt sich der Vorgang ein und es findet sich ein Gleichgewicht der Stoffe, in dem gleich viel Produkte bzw. Ausgangssubstanzen gebildet werden.",
+                    "score": 1
+                },
+                {
+                    "id": 45,
+                    "text": "Durch die Substratmoleküle werden Produkte gebildet, die wieder zu Edukten zurückreagieren können. Das chemische Gleichgewicht stellt sich ein, wenn das erreichte Verhältnis von Edukten und Produkten gleich bleibt.",
+                    "score": 1
+                },
+                {
+                    "id": 30,
+                    "text": "Bei jeder Reaktion gibt es auch eine Rückreaktion, diese laufen unterschiedlich schnell ab. Dies ist auch im Massenwirkungsgesetz beschrieben. Irgendwann stellt sich danach ein Gleichgewicht her, da hin- und Rückreaktion gleich häufig auftreten. Dieses Phänomen kommt zu stande, da die Substrate der schnelleren REaktion schnelelr in ihrer Menge abnehmen, während die Substrate auf Seiten der langsameren Reaktion zu nehmen. Das Zusammentreffen der jeweiligen Substrate, damit es zur Reaktion kommen, wird bei der zunächst schnelleren Reaktion also seltener, daher kommt es auch zu weniger Reaktion.",
+                    "score": 2
+                },
+                {
+                    "id": 31,
+                    "text": "Ein chemisches Gleichgewicht bildet sich durch Hin- und Rückreaktion. Jede chemische Reaktion hat eine bestimmte Triebkraft (Gibbs freie Enthalpie), setzt also bei gegebenen Bedingungen (bestimmte Konzentrationen der Edukte) eine bestimmte Stoffmenge um. Die Reaktion mit der höheren Triebkraft wird anfangs (vor Einstellung des Gleichgewichts)  mehr Edukt in Produkte umsetzen. Dadurch steigt allerdings die Konzentration des Edukte der rückreaktion und diese dadurch mehr Edukte in Produkte um als zuvor (MWG). Dieses Zusammenspiel pendelt sich bei einer bestimmten Konzentration der Stoffe ein.",
+                    "score": 2
+                },
+                {
+                    "id": 32,
+                    "text": "Beim chem. Gleichgewicht ist die Geschwindigkeit der Hin- und Rückreaktion gleich (Edukte werden zu Produkten in der selben Geschwindigkeit werden Produkte zu Edukte), das heißt wenn die Konzentration der Produkte durch die Konzentration der Edukte gleich K=1 ist.",
+                    "score": 3
+                },
+                {
+                    "id": 33,
+                    "text": "Das chemische Gleichgewicht entsteht wenn Produkte = Substrate. Die Reaktion läuft so lange ab bis die Menge der Substrate gleich der Menge der Produkte ist.",
+                    "score": 1
+                },
+                {
+                    "id": 34,
+                    "text": "Wenn zu Beginn zwischen zwei Bereichen kein Gleichgewicht herrscht, es besteht also ein Konzentrationgefälle, diffundieren von der Seite, woe die Konzentration höher ist mehr Stoffe auf die andere Seite mit geringerer Konzentration. Immer entlang des Konzentrationsgefälles. Doch nach einer bestimmten Zeit stellt sich ein Gleichgewicht der Konzentrationen ein, weil zu Beginn der \"Aufwand\" den die unterschiedlichen Seiten betreiben, auch unterschiedlich ist und dieser nähert sich immer mehr an und beide Seiten geben jeweils gleich viele Stoffe an die andere Seite ab. Es kommt zu einem Gleichgewichtsverhältnis.",
+                    "score": 1
+                },
+                {
+                    "id": 35,
+                    "text": "Ein chemisches Gleichgewicht knan nur dann zustande kommen, wenn sowohl hin- als auch Rückreaktion möglich sind. Entsprechend dem Massenwirkungsgesetz pendelt sich das Verhältnis von Edukten und Produkten ein: Zunächst sind viele Edukte vorhanden, welche nun in Produkte umgesetzt werden. Je mehr Produkte entstehen, desto stärker wird auch die Rückreaktion. In dem Moment, wo Hin- und Rückreaktion konstante Mengenverhältnisse der Edukte und Produkte entstehen lassen, ist das chemische Gleichgewicht erreicht.",
+                    "score": 1
+                },
+                {
+                    "id": 36,
+                    "text": "Zur Einstellung des chemischen Gleichgewichtes kommt es, wenn Hin- und Rückreaktion mit gleicher Geschwindigkeit ablaufen.",
+                    "score": 1
+                },
+                {
+                    "id": 37,
+                    "text": "Wenn die Reaktionspartner sich in seinen Elektronegativitäten ausgleichen. Das heißt dass alle chemischen Verbindungen wollen 8 Elektronen (Valenz) erreichen.",
+                    "score": 1
+                },
+                {
+                    "id": 38,
+                    "text": "Es kommt zu einem chemischen Gleichgewicht, wenn Hin- u nd Rückreaktion gleich schnell ablaufen.",
+                    "score": 1
+                },
+                {
+                    "id": 39,
+                    "text": "Das chemische Gleichgewicht beruht auf dem Massenwirkungsgesetz. Aufgrund des Verhältnisses der Edukte zu den Produkten ergibt sich die spezifische Gleichgewichtskonstante K. Es ist nun möglich anhand von Konzentrationsunterschieden, das chemische Gleichgewicht zur Seite der Produkte oder Edukte zu verschieben. Im Gleichgewicht laufen Hin- und Rückreaktion gleich schnell ab.",
+                    "score": 2
+                },
+                {
+                    "id": 40,
+                    "text": "Der wichtige Punkt in diesem Zusammenhang ist die Diffusion. D. h. die Teilchen sich immer vom Ort der hohen Konzentration zum Ort der niedrigen Konzentration hin bewegen. Diese Bewegung geschieht solange, bis dieselbe Konzentration auf beiden Seiten erreicht wird.",
+                    "score": 1
+                },
+                {
+                    "id": 41,
+                    "text": "Das chemische Gleichgewicht wird über das Massenwirkungsgesetz definiert. Dies besagt, dass bei einer chemischen Reaktion von Substraten einer Rückreaktion von Produkten stattfindet, welche sich nach der Stoffkonzentration der Substrate und Produkte richtet. Konstant ist im Gleichgewicht das Verhältnis der Substrate und Produkte zueinander. Das chemische Gleichgewicht ist erreicht, wenn die Stoffkonstante erreicht ist, dann wird kein Substrat mehr in Produkte und kein Produkte mehr in Substrat umgewandelt.",
+                    "score": 1
+                },
+                {
+                    "id": 42,
+                    "text": "Das chemische Gleichgewicht ist erreicht, wenn Hin- und rückreaktion gleich schnell ablaufen. Dies kann bei unterschiedlichen Konzentrationen der fall sein (Beispiel: Holzapfelschlacht). Bei erneute Zugabe eines Stoffes, würde sich das Gleichgewicht bei einer anderen Konzentration einstellen, es ist jedoch erreicht, wenn hin- und Rückreaktion gleich schnell ablaufen.",
+                    "score": 3
+                },
+                {
+                    "id": 43,
+                    "text": "Ein chemisches Gleichgewicht entsteht, wenn sich die Reaktionsgeschwindigkeiten von Hin- und Rückreaktion ausgeglichen haben. Das heißt, dass gleichzeitig genauso viele Edukte wie Produkte entstehen. Diese Einstellung hängt auch eng mit dem Massenwirkungsgesetz zusammen. Genauer gesagt, sind die Teilgeschwindigkeiten, also die Reaktionsgeschwindigkeiten von Hin- und Rückreaktion ungleich Null, aber zueinander gleich, was die Gesamtgeschwindigkeit der Gesamtreaktion auf Null bringt. Von Außen kommt es also scheinbar zum \"Erliegen\".",
+                    "score": 3
+                },
+                {
+                    "id": 44,
+                    "text": "Ein chemisches Gleichgewicht besagt, dass Hin- und Rückreaktion gleich schnell ablaufen. Ein Gleichgewicht kann durch verschiedene Verfahren entstehen. Zum Beispiel bei der Osmose oder Diffusion. Osmose: Konzentrationsausgleich durch eine semipermeable Membran -> Teilchen von niedriger Konzentration zum Ort höherer Konzentration -> osmotischer Druck steigt. Diffusion: Flüssigkeiten vermischen sich durch Wärme (ohne Energieaufwand) vom Ort höherer Konzentration zum Ort niedrigerer Konzentration). Transportproteine können Teilchen durch eine Membran schleusen.",
+                    "score": 1
+                },
+                {
+                    "id": 49,
+                    "text": "Nach dem Massenwirkungsgesetz liegt ein chemisches Gleichgewicht dann vor, wenn Hin- und Rückreaktion gleich schnell ablaufen. Außerdem besagt das MWG, dass die Reaktiongeschwindigkeit mit steigender Konzentration zunimmt.",
+                    "score": 3
+                },
+                {
+                    "id": 50,
+                    "text": "Das chemische Gleichgewicht ist ein Zustand einer Reaktion, bei der die Hin- und Rückreation mit gleicher Geschwindigkeit ablaufen. Dieser Zustand kommt so zustande, indem beide \"Umformungen\" von chemischen Bindungen unterschiedlich schnell ablaufen. Wenn z. B. eine Hinreaktion viel schneller als eine Rückreaktion abläuft, befindet sich das Gleichgewicht mehr auf der Seite der Rückreaktion. Die meisten \"Teilchen\" befinden sich somit auf der Seite der Rückreaktion. Somit steigt die Konzentration an chemischen Stoffen udn die Reaktion kann mit einer bestimmten Geschwindigkeit ablaufen. Genau umgekehrt vreläuft dieser Vorgang auf der Seite der Hinreaktion. Da dort die Reaktion schneller abläuft, sinkt die Konzentration an chemischen Stoffen und somit sinkt die Wahrscheinlichkeit, dass sich zwei Stoffe zur Hinreaktion treffen und sich z. B. verbinden. Die Geschwindigkeit der REaktion sinkt. Somit haben sich die Reaktionsgeschwindigkeiten aufgrund der Konzentrationsveränderungen angepasst und ein chemisches Gleichgewicht ist entstanden.",
+                    "score": 3
+                },
+                {
+                    "id": 46,
+                    "text": "Das chemische Gleichgewicht kann durch das Massenwirkungsgesetz erläutert werden. Wenn es viele Produkte gibt, läuft die Reaktion in der Hinrichtung schnell ab da der Zusammenstoß der Teilchen wahrscheinlich ist. Aber je mehr Edukte es gibt, desto schneller läuft auch die Rückreaktion ab. Es ist ein dynamischer Prozess, aber nach einer Weile stellt sich ein chemisches Gleichgewicht ein, d. h. Hin- und Rückreaktion laufen gleich schnell ab. Das Gleichgewicht ist für jede Reaktion spezifisch und kann mit der Gleichung K = C(D)*C(C)/C(A)*C(B) beschrieben werden. D. h. es stellt sich ein spezifisches Verhältnis zwischen der Konzentration der Edukte und Produkte ein.",
+                    "score": 3
+                },
+                {
+                    "id": 47,
+                    "text": "Bei einer allgemeinen chemischen Reaktion findet folgende chemische Umsetzung statt: A + B = C + D. Es findet folglich sowohl eine Hinreaktion, als auch eine Rückreaktion statt. Gemäß dem Massenwirkungsgesetz nimmt die Geschwindigkeit der Hinreaktion mit zunehmender Zeit ab, die der rückreaktion jedoch zu. Finden diese beiden Reaktionen gleich schnell statt, so hat sich ein chemisches Gleichgewicht eingestellt. Für jede chemische Reaktion lässt sich dieses charakteristisch bestimmen, indem man die Gleichgewichtskonstante ausrechnet.",
+                    "score": 2
+                },
+                {
+                    "id": 48,
+                    "text": "Ein chemisches Gleichgewicht stellt sich ein, wenn Hin- und Rückreaktion bei einer chemischen Reaktion gleich schnell ablaufen. Die Gleichgewichtskonstante hat für jede chemische Reaktion einen eigenen Wert.",
+                    "score": 3
+                },
+                {
+                    "id": 51,
+                    "text": "Das chemische Gleichgewicht wird durch das Massenwirkungsgesetz bestimmt. Die Geschwindigkeit einer chemischen Reaktion hängt von den beteilgten Stoffen ab. Hier kommen Enzyme ins Spiel. Wenn die Konzentration höher ist werden Enzyme mit der Konzentration gesättigt und wird die Enzymaktivität nicht mehr verändert, aber wenn die Konzentration der beteiligten Stoffe niedriger ist wird die Enzymaktivität höher und wird Reaktion beschleunigt. Es gibt immer ein Gleichgewicht, die Konzentration von Edukten und Produkten soll im Gleichgewicht stehen.",
+                    "score": 2
+                },
+                {
+                    "id": 52,
+                    "text": "Nach dem Massenwirkungsgesetz A+B=C+D. Wenn K=1, die Konzentration der Produkte gleich der Konzentration der Edukte ist, läuft die Reaktion der beiden Richtungen gleich schnell und das bedeutet Gleichgewicht. Um Konzentrationen auszugleichen und Gleichgewicht zu erreichtn geschieht Diffusion.",
+                    "score": 3
+                },
+                {
+                    "id": 53,
+                    "text": "Das chemische Gleichgewicht unterliegt dem Massenwirkungsgesetz und ist dann vorhanden, wenn Hin- und Rückreation gleich schnell ablaufen. Die Edukte A+B als Beispiel werden zu den Produkte C+D umgesetzt. Zu Beginn ist die Konzentration der Edukte hoch, bis sie immer mehr zu den Produkte umgesetzt werden und somit die Konzentration der Produkte steigt, während die der Edukte sinkt. Da Produkte auch zu den Edukten rückreagieren können, stellt sich ab einem bestimmten Wert ein chemisches Gleichgewicht ein, in dem (wie oben erwähnt) Hin- und Rückreation gleich schnell ablaufen.",
+                    "score": 3
+                }
+            ],
+            "created_at": "2015-07-22T15:17:06.459+02:00",
+            "updated_at": "2015-07-22T15:17:06.459+02:00"
+        },
+        "tags": [
+            "Beispielkarten"
+        ],
+        "tag_ids": [
+            1
+        ],
+        "flags": [],
+        "created_at": "2015-07-22T15:17:06.470+02:00",
+        "updated_at": "2015-07-22T15:31:29.954+02:00"
+    }

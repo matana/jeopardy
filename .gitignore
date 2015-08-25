@@ -1,0 +1,15 @@
+/target/
+/classDiagram.ucls
+.groovy/
+logs/
+target/
+exports/
+bin/
+*.jar
+*.class
+.cache
+.DS_Store
+.svn
+.metadata/
+/.settings/
+/.git/
