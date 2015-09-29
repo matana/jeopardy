@@ -22,7 +22,7 @@ import de.uni_koeln.info.util.TermWeighting;
 import de.uni_koeln.info.util.Tokenizer;
 import de.uni_koeln.info.util.VectorComparison;
 
-@Service("index")
+//@Service("index")
 public class IndexImpl implements Index {
 	
 	Logger logger = LoggerFactory.getLogger(getClass());
@@ -31,8 +31,9 @@ public class IndexImpl implements Index {
 	private static final Tokenizer PREPROCESSOR = new Tokenizer(Delimiter.UNICODE_AWARE_DELIMITER, true, true);
 	private Corpus corpus;
 
-	@Autowired
+	//@Autowired
 	public IndexImpl(Corpus corpus) {
+		logger.info("corpus :: " + corpus.getDocuments().size());
 		long start = System.currentTimeMillis();
 		this.corpus = corpus;
 		index = createIndex(corpus);

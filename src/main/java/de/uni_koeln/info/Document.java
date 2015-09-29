@@ -16,6 +16,13 @@ public class Document {
 	private String answer;
 	private long docId;
 	
+	/**
+	 * 
+	 * @param questionId
+	 * @param answer
+	 * @param score
+	 * @param tokenizer
+	 */
 	public Document(int questionId, final String answer, int score, Tokenizer tokenizer) {
 		this.questionId = questionId;
 		this.score = score;

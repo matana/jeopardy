@@ -3,12 +3,12 @@ package de.uni_koeln.info.data;
 public class Score {
 	
 	final private long qustionId;
-	final private long requestCount;
+	final private String answer;
 	final private int score;
 
-	public Score(long requestCount, long qustionId, int score) {
+	public Score(long qustionId, final String answer, int score) {
 		this.qustionId = qustionId;
-		this.requestCount = requestCount;
+		this.answer = answer;
 		this.score = score;
 	}
 
@@ -16,8 +16,8 @@ public class Score {
 		return score;
 	}
 
-	public long getRequestCount() {
-		return requestCount;
+	public String getRequestCount() {
+		return answer;
 	}
 
 	public long getQustionId() {
