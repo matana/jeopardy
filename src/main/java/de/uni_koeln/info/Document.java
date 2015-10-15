@@ -1,5 +1,6 @@
 package de.uni_koeln.info;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -7,33 +8,34 @@ import java.util.Set;
 
 import de.uni_koeln.info.util.Tokenizer;
 
-public class Document {
+public class Document implements Serializable {
 
+	private static final long serialVersionUID = 2686372798901001198L;
 	private List<String> tokens;
 	private Map<String, Integer> termFreqMap;
-	private int questionId;
+	private int cardId;
 	private int score;
 	private String answer;
 	private long docId;
 	
 	/**
 	 * 
-	 * @param questionId
+	 * @param cardId
 	 * @param answer
 	 * @param score
 	 * @param tokenizer
 	 */
-	public Document(int questionId, final String answer, int score, Tokenizer tokenizer) {
-		this.questionId = questionId;
+	public Document(int cardId, final String answer, int score, Tokenizer tokenizer) {
+		this.cardId = cardId;
 		this.score = score;
 		this.answer = answer;
 		this.tokens = tokenizer.getTokens(answer);
 		this.termFreqMap = getTermFreqMap();
 	}
 
-	public Document(long docId, int questionId, final String answer, int score, Tokenizer tokenizer) {
+	public Document(long docId, int cardId, final String answer, int score, Tokenizer tokenizer) {
 		this.docId = docId;
-		this.questionId = questionId;
+		this.cardId = cardId;
 		this.score = score;
 		this.answer = answer;
 		this.tokens = tokenizer.getTokens(answer);
@@ -63,8 +65,8 @@ public class Document {
 		return tokens;
 	}
 
-	public int getQuestionId() {
-		return questionId;
+	public int getCardId() {
+		return cardId;
 	}
 
 	public int getScore() {
@@ -82,8 +84,8 @@ public class Document {
 	@Override
 	public String toString() {
 		return "Document [docId=" + docId + ", tokens=" + tokens.size()
-				+ ", terms=" + termFreqMap.size() + ", questionId="
-				+ questionId + ", score=" + score + "]";
+				+ ", terms=" + termFreqMap.size() + ", cardId="
+				+ cardId + ", score=" + score + "]";
 	}
 	
 	

@@ -1,5 +1,6 @@
 package de.uni_koeln.info;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -12,39 +13,41 @@ import java.util.TreeSet;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import de.uni_koeln.info.util.Delimiter;
-import de.uni_koeln.info.util.SetOperations;
 import de.uni_koeln.info.util.Printer;
+import de.uni_koeln.info.util.SetOperations;
 import de.uni_koeln.info.util.TermWeighting;
 import de.uni_koeln.info.util.Tokenizer;
 import de.uni_koeln.info.util.VectorComparison;
 
 //@Service("index")
-public class IndexImpl implements Index {
+public class IndexImpl implements Index, Serializable {
 	
-	Logger logger = LoggerFactory.getLogger(getClass());
+	private static final long serialVersionUID = -8327672309397298022L;
+
+	private Logger logger = LoggerFactory.getLogger(getClass());
 
 	private Map<String, SortedSet<Integer>> index;
-	private static final Tokenizer PREPROCESSOR = new Tokenizer(Delimiter.UNICODE_AWARE_DELIMITER, true, true);
-	private Corpus corpus;
+
+	private Set<Document> documents;
+	
+	private transient static final Tokenizer PREPROCESSOR = new Tokenizer(Delimiter.UNICODE_AWARE_DELIMITER, true, true);
 
 	//@Autowired
-	public IndexImpl(Corpus corpus) {
-		logger.info("corpus :: " + corpus.getDocuments().size());
+	public IndexImpl(Set<Document> documents) {
+		logger.info("documents.size() :: " + documents.size());
+		this.documents = documents;
 		long start = System.currentTimeMillis();
-		this.corpus = corpus;
-		index = createIndex(corpus);
+		index = createIndex(documents);
 		logger.info("index built, time: " + (System.currentTimeMillis() - start) + " ms.");
 	}
 
-	private Map<String, SortedSet<Integer>> createIndex(Corpus corpus) {
+	private Map<String, SortedSet<Integer>> createIndex(Set<Document> documents) {
 		HashMap<String, SortedSet<Integer>> index = new HashMap<String, SortedSet<Integer>>();
-		List<Document> documents = new ArrayList<>(corpus.getDocuments());
-		for (int i = 0; i < documents.size(); i++) {
-			Set<String> terms = documents.get(i).getTerms();
+		List<Document> tmp = new ArrayList<>(documents);
+		for (int i = 0; i < tmp.size(); i++) {
+			Set<String> terms = tmp.get(i).getTerms();
 			for (String t : terms) {
 				SortedSet<Integer> postings = index.get(t);
 				if (postings == null) {
@@ -84,7 +87,7 @@ public class IndexImpl implements Index {
 	}
 
 	public List<Document> getAllDocuments() {
-		return new ArrayList<>(corpus.getDocuments());
+		return new ArrayList<>(documents);
 	}
 
 	public Set<String> getTerms() {

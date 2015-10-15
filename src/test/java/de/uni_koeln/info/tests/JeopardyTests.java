@@ -35,8 +35,8 @@ public class JeopardyTests {
 
 	@Before
 	public void setup() throws JsonParseException, JsonMappingException, IOException {
-		
-		index = new IndexImpl(new Corpus(new File("freetext.json")));
+		Corpus corpus = new Corpus(new File("freetext.json"));
+		index = new IndexImpl(corpus.getDocuments());
 		classifier = new IClassifierImpl(new NaiveBayes(), Arrays.asList("1", "2", "3"), index.getTerms().size());
 
 		// RANDOM DOCUMENTS
