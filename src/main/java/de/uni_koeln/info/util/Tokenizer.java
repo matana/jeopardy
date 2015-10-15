@@ -13,7 +13,7 @@ import org.tartarus.snowball.Stemmer;
 
 public final class Tokenizer {
 	
-	Logger logger = LoggerFactory.getLogger(getClass());
+	//Logger logger = LoggerFactory.getLogger(getClass());
 
 	private String delimiter;
 	private boolean normalize;
@@ -44,25 +44,25 @@ public final class Tokenizer {
 	public List<String> getTokens(final String input) {
 		List<String> result = new ArrayList<String>();
 		add(input, result);
-		logger.info("original :: " + result.size());
+		// logger.info("original :: " + result.size());
 		StringBuilder sbOut = new StringBuilder();
 		result.forEach(s -> sbOut.append(s).append(", "));
-		logger.info(sbOut.toString());
+		// logger.info(sbOut.toString());
 		if(normalize) {
 			result = (List<String>) normalize(result);
-			logger.info("normalized :: " + result.size());
+			// logger.info("normalized :: " + result.size());
 			StringBuilder sb = new StringBuilder();
 			result.forEach(s -> sb.append(s).append(", "));
-			logger.info(sb.toString());
+			// logger.info(sb.toString());
 		}
 		if(removeStopWords) {
 			result = SetOperations.complement(result, stopWords);
-			logger.info("stopwords removed :: " + result.size());
+			// logger.info("stopwords removed :: " + result.size());
 			StringBuilder sb = new StringBuilder();
 			result.forEach(s -> sb.append(s).append(", "));
-			logger.info(sb.toString());
+			// logger.info(sb.toString());
 		}
-		logger.info("---------");
+		// logger.info("---------");
 		return result;
 	}
 
