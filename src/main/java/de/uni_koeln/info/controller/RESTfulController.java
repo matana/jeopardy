@@ -1,5 +1,8 @@
 package de.uni_koeln.info.controller;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import de.uni_koeln.info.Corpus;
-import de.uni_koeln.info.Scorer;
 import de.uni_koeln.info.data.CardleObject;
 import de.uni_koeln.info.data.Score;
+import de.uni_koeln.info.util.Cache;
+import de.uni_koeln.info.util.NoCorpusException;
 
 @RestController
 public class RESTfulController {
@@ -22,24 +25,19 @@ public class RESTfulController {
 	Logger logger = LoggerFactory.getLogger(getClass());
 	
 	@Autowired
-	private Scorer scorer;
-	
-	@Autowired
-	private Corpus corpus;
+	Cache cache;
 	
 
 	@RequestMapping(value="/validate", method=RequestMethod.GET)
-	public @ResponseBody Score validate(@RequestParam(value = "questionId") int questionId, @RequestParam(value = "text") String answer) {
-		return scorer.getScore(questionId, answer);
+	public @ResponseBody Score validate(@RequestParam(value = "questionId") int questionId, @RequestParam(value = "text") String answer) throws NoCorpusException {
+		logger.info("validate :: " +  questionId);
+		return cache.validate(questionId, answer);
 	}
 	
 	@RequestMapping(value="/train", method=RequestMethod.POST)
-	public HttpStatus train(@RequestBody CardleObject cardleObject) {
-		boolean added = corpus.addCardleObject(cardleObject);
-		if(added)
-			return HttpStatus.OK;
-		else
-			return HttpStatus.BAD_REQUEST;
+	public HttpStatus train(@RequestBody CardleObject cardleObject) throws FileNotFoundException, IOException {
+		logger.info("train :: " + cardleObject.getId());
+		return cache.train(cardleObject);
 	}
 
 }
